@@ -11,11 +11,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://orglabel.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          OrgLabel
+          OrgLabel - The Website
         </a>
       </header>
     </div>
