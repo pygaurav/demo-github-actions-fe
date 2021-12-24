@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          OrgLabel - The Websites
+          Failure Text
         </a>
       </header>
     </div>
