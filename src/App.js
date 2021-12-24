@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Tag
+          OrgLabel - The Websites
         </a>
       </header>
     </div>
