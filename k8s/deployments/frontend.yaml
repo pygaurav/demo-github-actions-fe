@@ -25,9 +25,10 @@ spec:
         resources: {}
         command: 
          - npm
+         - run
          - build
         volumeMounts:
-          - mountPath: /frontend
+          - mountPath: /frontend/build
             name: test-volume
       volumes:
         - name: test-volume
