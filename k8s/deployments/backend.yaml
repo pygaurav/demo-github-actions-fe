@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: backend
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backend
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: backend
+    spec:
+      imagePullSecrets:
+        - name: jfrogauth
+      containers:
+      - image: orglabel.jfrog.io/default-docker-virtual/demogithubbe:latest
+        name: demogithubbe
+        resources: {}
+        command: 
+         - npm
+         - start
+status: {}
